@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:980px){
+	.all_title p{ width:80%;}
+	.header_text .making{line-height:61px; font-size:17px; }
+	.header_text h2{ line-height:90px; font-size:39px; margin:0 30%;}
+	.header_text .best{ line-height:71px;font-size:21px;}
+	.header_top nav {width: 76%;position: absolute;top: 0;left: 50%;margin-left: -255px;}
+	.header_top nav ul li{ padding: 0 16px;}
+	.header_top nav li:nth-child(8),.header_top nav li:nth-child(7),.header_top nav li:nth-child(6){display: none;}
+	.modern{ width:100%;}
+	.modern .modern_left{ width:32%;}
+	.modern .modern_pic{width:28%;margin:0 3%;}
+	.modern .modern_right{width:34%;}
+	.all_text .modern_t p{ padding-right:6%;}
+	.all_text .modern_p i{ left:3%;}
+	.oshine ul li{ padding:10% 0 0% 0;}
+	.envato p{ width:70%;}
+	.recent:first-child{ margin:0 3% 0 1%;}
+	.oshin p{ width:87%; letter-spacing:1px; }
+	.footer_top:nth-child(2){margin-right:3%;}
+	.footer_top:nth-child(3){margin-right:3%;}
+	.recent{width:24%;}
+	.recent_pic p{ width:82%;}
+	}
+@media screen and (max-width:700px){
+	.header_top nav{ display:none;}
+	.header_text .making{line-height:48px; font-size:14px; }
+	.header_text h2{ line-height:73px; font-size:29px; margin:0 26%;}
+	.header_text .best{ line-height:61px;font-size:17px;}
+	.oshine ul li{ float:none; width:100%;}
+	.oshine ul li{ padding:8% 0 8% 0;}
+	.oshine ul li a:hover{ transform:translate(0,-20px); color:#e0a341;}
+	.modern .modern_left{ width:80%; float:none; margin:auto; }
+	.modern .modern_pic{width:65%; float:none;margin:auto;}
+	.modern .modern_right{width:80%; float:none;margin:auto;}
+	.work_box{ width:43%; margin:0 2% 4% 3%;}
+	.work_pic :nth-child(3n){margin:0 2% 4% 3%;}
+	.envato p{ width:67%;}
+	.clients_l{ width:48%; margin-bottom:28%;}
+	.clients_pic{width:100%; height:280px; overflow:hidden;}
+	.recent{  margin:0 5% 0 15%; float:none; width:85%;}
+	.recent:first-child{ margin:0 0 5% 15%;}
+	.oshin p{ width:78%;}
+	.work ul{ width:98%; margin-left:-48%;}
+	.work ul li{ padding-left:3%;}
+	.recent_photo{ width:80%;}
+	.all_title i{font-weight:bold;}
+
+	}
+@media screen and (max-width:480px){
+	.header_text .making{line-height:37px; font-size:11px; }
+	.header_text h2{ line-height:50px; font-size:22px; margin:0 25%; border:5px solid #000; letter-spacing:5px;}
+	.header_text .best{ line-height:53px;font-size:11px;}
+	.all_title i{ width:62%; font-size:16px;line-height:30px; display:inline-block; padding:10% 0;}
+	.work ul{ margin-top:12%;}
+	.work_pic{ margin-top:23%;}
+	.work_box{ width:80%; margin:0 0% 7% 8%;}
+	.work_pic :nth-child(3n){margin:0 3% 8% 8%;}
+	.clients_pic{ height:194px;}
+	.touch p{ font-size:19px; width:70%; margin:auto; line-height:32px;}
+	
+	
+	
+	}
